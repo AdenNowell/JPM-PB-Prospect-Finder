@@ -1,0 +1,13 @@
+source_url,source_name,sector,area,date_added,yield_note
+https://clearridgecapital.com/recent-transactions/,ClearRidge M&A deal sheet,Manufacturing / Industrial,Oklahoma statewide,2026-07-07,Best single source found - 10+ named OK owner-sellers per pass; recheck quarterly for new deals
+https://www.privsource.com/acquisitions/manufacturing/state/oklahoma,PrivSource OK manufacturing deals,Manufacturing / Industrial,Oklahoma statewide,2026-07-07,High yield via web-search snippets; page itself is JS-gated so search "privsource oklahoma [sector]" instead of fetching
+https://tulsachamber.com/main/tulsa-small-business-summit-awards/,Tulsa Chamber Small Business Awards,Manufacturing / Industrial,Tulsa metro,2026-07-07,Manufacturer of the Year names owners; check after September ceremony each year
+https://www.okcommerce.gov/oiep/,OK Commerce BEIP/OIEP incentive awards,Manufacturing / Industrial,Oklahoma statewide,2026-07-07,Names expanding companies but rarely owners; pair with company-site lookup
+https://mergr.com/companies/united-states/oklahoma/recently-sold,Mergr recently-sold OK companies,All sectors,Oklahoma statewide,2026-07-07,Deal list surfaced in search snippets; untested for direct fetch
+https://www.city-data.com/elec2/elec-WOODWARD-OK.html,City-Data FEC page per town,Oil & Gas / Royalties,NW Oklahoma,2026-07-07,Names+employer+occupation+amounts; swap town in URL; 10+ qualified names in one fetch
+https://ppp.directory/oklahoma/[town],PPP directory town pages,Oil & Gas / Royalties,Oklahoma statewide,2026-07-07,Ranked employer list w/ jobs+loan size; pair with owner search
+https://www.shalexp.com/oklahoma/[county]-county/companies,ShaleXP county operator pages,Oil & Gas / Royalties,Oklahoma statewide,2026-07-07,Local-HQ private operators + top-producer lists; free no-login
+https://firehawkdefense.com/about-firehawk-aerospace/,Firehawk team page,Manufacturing / Industrial,"Dallas, TX",2026-07-08,9 named execs/engineers in one fetch; pattern: company /about or /team page first for any single-company run
+https://www.goponca.com/manufacturing-resource-guide.html,PCDA Manufacturing Resource Guide,Manufacturing / Industrial,"Ponca City, Kay Co. OK",2026-07-08,10 named contacts at real Ponca City manufacturers in one fetch
+https://reic.com/company/,REIC Rentals company page,Other,National (multi-state incl. OK),2026-07-27,12 named execs (CEO/CFO/VPs) in one fetch - good template for national-company-with-OK-branch lookups
+https://www.garaga.com/about-us/news/garaga-mid-america-door,Garaga/Mid-America Door acquisition PR,Manufacturing / Industrial,"Ponca City, Kay Co. OK",2026-07-27,5+ named leaders (GM/Directors/Co-Presidents) in one fetch for an OK manufacturing plant under foreign ownership

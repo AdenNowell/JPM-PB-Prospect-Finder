@@ -1,0 +1,10 @@
+outputs/
+__pycache__/
+.git/
+.agents/
+HUMAN_READ_ME.md
+*.xlsx
+*.xls
+*.pyc
+prospects.csv
+RUN_LOG.csv

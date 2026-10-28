@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import importlib.util as u; [print\\(m, bool\\(u.find_spec\\(m\\)\\)\\) for m in ['anthropic','flask','fastapi','uvicorn','openpyxl','dotenv','requests']]\")",
+      "Bash(python -m pip --version)",
+      "Bash(python -m pip install --quiet anthropic python-dotenv)",
+      "Bash(python -c \"import anthropic; print\\('anthropic', anthropic.__version__\\)\")",
+      "Bash(python -c \"import server; print\\('imports OK; live =', bool\\(__import__\\('os'\\).environ.get\\('ANTHROPIC_API_KEY'\\)\\)\\)\")",
+      "Bash(PORT=5000 python server.py)",
+      "Bash(curl -s -X POST http://127.0.0.1:5000/run -H \"Content-Type: application/json\" -d '{\"area\":\"Kay County\",\"sector\":\"oil_gas\",\"count\":4}')",
+      "Skill(artifact-design)",
+      "Skill(artifact-design:*)",
+      "Bash(python -m pip list)"
+    ]
+  }
+}
